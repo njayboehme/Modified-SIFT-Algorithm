@@ -4,7 +4,7 @@ The UGS_Modified_Feature_Detection implements a length and slope filter on the O
 
 https://imagery.geology.utah.gov/pages/search.php?search=%21collection21441+&k=&modal=&display=thumbs&order_by=date&offset=0&per_page=350&archive=&sort=DESC&restypes=&recentdaylimit=&foredit=&noreload=true&access=
 
-The algorithm will try to match the following image pairs if not enough matches (<3) are found: original image with NAIP image, upper half of original image with NAIP image, lower half of original image with NAIP image, left half of original image with NAIP image, and the right half of original image with NAIP image. 
+The algorithm will try to match the following image pairs if not enough matches (< 3) are found: original image with NAIP image, upper half of original image with NAIP image, lower half of original image with NAIP image, left half of original image with NAIP image, and the right half of original image with NAIP image. 
 
 ### Examples of Good Matches
 ![Full good match](Photos/244089_38.6946_-109.3414.jpg)
