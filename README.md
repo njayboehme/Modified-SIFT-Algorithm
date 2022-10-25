@@ -10,7 +10,7 @@ The algorithm will try to match the following image pairs if not enough matches 
 ![Full good match](Photos/244089_38.6946_-109.3414.jpg)
 ![Upper half good match](Photos/244041_38.478_-109.224_upper_half.jpg)
 ![Lower half good match](Photos/244220_38.3541_-109.1165_lower_half.jpg)
-![Left half good match]()
+![Left half good match](Photos/244443_39.3037_-109.1072_left_half.jpg)
 ![Right half good match](Photos/244244_38.3643_-109.0671_right_half.jpg)
 
 ### Examples of Not Enough Matches
