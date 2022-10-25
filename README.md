@@ -8,7 +8,7 @@ The algorithm will try to match the following image pairs if not enough matches 
 
 ### Examples of Good Matches
 ![Full good match](Photos/244089_38.6946_-109.3414.jpg)
-![Upper half good match]()
+![Upper half good match](Photos/244041_38.478_-109.224_upper_half.jpg)
 ![Lower half good match](Photos/244220_38.3541_-109.1165_lower_half.jpg)
 ![Left half good match]()
 ![Right half good match]()
