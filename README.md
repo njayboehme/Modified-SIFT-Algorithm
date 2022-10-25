@@ -7,11 +7,11 @@ https://imagery.geology.utah.gov/pages/search.php?search=%21collection21441+&k=&
 The algorithm will try to match the following image pairs if not enough matches are found: original image with NAIP image, upper half of original image with NAIP image, lower half of original image with NAIP image, left half of original image with NAIP image, and the right half of original image with NAIP image. 
 
 ### Examples of Good Matches
-![Full good match](244089_38.6946_-109.3414.jpg)
+![Full good match](Photos/244089_38.6946_-109.3414.jpg)
 ![Upper half good match]()
-![Lower half good match](244220_38.3541_-109.1165_lower_half.jpg)
+![Lower half good match](Photos/244220_38.3541_-109.1165_lower_half.jpg)
 ![Left half good match]()
 ![Right half good match]()
 
 ### Examples of Not Enough Matches
-![Bad Match](244065_38.596_-109.2282_right_half.jpg)
+![Bad Match](Photos/244065_38.596_-109.2282_right_half.jpg)
