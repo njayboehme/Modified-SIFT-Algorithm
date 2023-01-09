@@ -173,14 +173,13 @@ def runFeatureDetection(img1, img2, coords, to_add_width, to_add_height):
         matchesMask = mask.ravel().tolist()
         h, w = img1.shape
 
-        ## matchesMask, was_updated = updateMaskDuplicates(src_pts, dst_pts, matchesMask)
-        ## if checkLengthsAndSlope(src_pts, dst_pts, matchesMask, w):
-            ## getThreePoints(matchesMask)
-            ## saveCoordAndPixelLocations(src_pts, dst_pts, matchesMask, img2.shape, coords, to_add_width, to_add_height)
-            # case_val = GOOD_MATCH
-        case_val = GOOD_MATCH
-        ## else:
-        ##     case_val = BAD_MATCH
+        matchesMask, was_updated = updateMaskDuplicates(src_pts, dst_pts, matchesMask)
+        if checkLengthsAndSlope(src_pts, dst_pts, matchesMask, w):
+            getThreePoints(matchesMask)
+            saveCoordAndPixelLocations(src_pts, dst_pts, matchesMask, img2.shape, coords, to_add_width, to_add_height)
+            case_val = GOOD_MATCH
+        else:
+            case_val = BAD_MATCH
     else:
         case_val = BAD_MATCH
         matchesMask = None
